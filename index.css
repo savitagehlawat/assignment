@@ -1,0 +1,157 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ECF1F5;
+padding-top: 2em; 
+    padding-left: 1em;
+      padding-bottom: 2em; 
+       padding-right: 1em;
+
+  }
+header{
+background-color: white;
+box-sizing: border-box;
+border-radius: 25px;
+padding-right: 1em;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+#top-logo{
+  width: 200px;
+}
+
+#top-button{
+  font-size: 12px;
+  color: white;
+  background-color: black;
+  padding: 9px 34px;
+  letter-spacing: 0.8px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+#top-items-container{
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#top-items-container span{
+  padding: 0 5px;
+color: #D9D9D9;
+  font-weight: 200;
+  font-size: 12px;
+  margin-left: 24px;
+  cursor: pointer;
+
+}
+
+main{
+  display: flex;
+}
+#main-left-section{
+  text-align: left;
+  margin-left: 100px;
+  width: 45%;
+  margin-top: 20px;
+}
+
+#btn1{
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #FFE0F9;
+  padding: 15px 20px;
+  color: #6476FF;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;  
+  margin-top: 10px; 
+
+}
+
+#main-left-section h1{
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#main-left-section p{
+  color: grey;
+  margin-top: 0;
+}
+
+#btn2{
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #6A7BFF;
+  padding: 15px 25px;
+  color:white;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.5px; 
+}
+
+#main-bottom-section{
+  margin-top:20px;
+  display: flex;
+
+}
+
+#left-arrow{
+  color: #6A7BFF;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#right-arrow{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left:10px;
+}
+
+#main-span{
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+
+#main-span #span1{
+  color:#828FFF;
+  font-size:12px;
+  margin-top: 50px;
+}
+
+#main-span #span2{
+  font-size:13px;
+  color:#000000;
+  margin-top: 50px;
+
+}
+
+#landing-image{
+width:450px;
+height:600px;
+margin-top:20px;
+background-color:transparent;
+}
+
+#top-items-container #top-items-plans{
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
